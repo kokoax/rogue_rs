@@ -1,0 +1,8 @@
+[package]
+name = "rogue_rs"
+version = "0.1.0"
+authors = ["kokoax <yomo4808@gmail.com>"]
+
+[dependencies]
+ncurses = "5.86.0"
+
