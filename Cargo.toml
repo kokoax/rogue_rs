@@ -5,4 +5,5 @@ authors = ["kokoax <yomo4808@gmail.com>"]
 
 [dependencies]
 ncurses = "5.86.0"
+rand = "0.3"
 
