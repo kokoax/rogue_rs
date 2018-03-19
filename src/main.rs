@@ -264,6 +264,12 @@ impl MapController {
         }
     }
 
+    fn remap(&mut self) -> MapController {
+        self.map = MapController::generate_map();
+        MapController::new()
+    }
+
+
     fn init_map() -> Vec<Vec<char>> {
         [['#';MAP_WIDTH];MAP_HEIGHT]
             .into_iter()
